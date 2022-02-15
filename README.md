@@ -6,7 +6,7 @@ I accessed the data extracted from the [Chicago Police Department](https://data.
 
 # Result
 To see the steps I took to do analysis, click here [Chicago_Crime](https://github.com/wonhee3472/GIS_Project/blob/main/Chicago%20Crime.ipynb).
-To see the result of the analysis, clicking the [chicago_arrests.html](https://github.com/wonhee3472/GIS_Project/blob/main/chicago_arrests.html) won't work. You probably have to clone this repostitory and open it with jupyter notebook in the environment where you have `geopandas` and `keplergl` installed.
+To see the result of the analysis, clicking the [chicago_arrests.html](https://github.com/wonhee3472/GIS_Project/blob/main/chicago_arrests.html) won't work. You probably have to clone this repostitory and open it with jupyter notebook in the environment where you have `geopandas`, `sodapy`, and `keplergl` installed.
 
 # Reflection
 The website [Chicago Police Department](https://data.cityofchicago.org/Public-Safety/Crimes-One-year-prior-to-present/x2n5-8w5q) gives you the option to see their version of data visualization (it can be found if you scroll all the way down). It has a lot of embedded features that enable the users to interact with the map but in my opinion, it's a little difficult to get the whole picture by just simply glancing at it and I feel like it's hard to use the filter feature. I think the `kepler` library has a very powerful tool where you can make the map 3-D and it's relatively easier to mess around with it.
